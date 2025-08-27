@@ -1,22 +1,24 @@
-# Fake-News-Classifier
+# Fake News Classifier
 
-Jupyter Notebook implementation that classifies news as **fake** or **true** using **TF-IDF** vectorization and **Logistic Regression**.
-
----
-
-###  Features
-- Preprocesses text by lowercasing, removing punctuation, URLs, stopwords, and applying lemmatization
-- Converts text into TF-IDF features
-- Trains a Logistic Regression model
-- Evaluates using accuracy, classification report, and a confusion matrix
-- Includes an interactive function for real-time predictions
+**machine learning project** to classify news articles as **Fake** or **True** using TF-IDF vectorization and Logistic Regression in Python.
 
 ---
 
-###  Quick Start
+## Features
+- Text preprocessing: lowercasing, punctuation/URL removal, stopword removal, and lemmatization  
+- Converts text into numerical features using TF-IDF 
+- Trains a Logistic Regression model  
+- Provides accuracy, classification report, and confusion matrix visualization  
+- Real-time prediction for custom news sentences  
 
-1. **Clone the repo:**
-   ```bash
-   git clone https://github.com/Waleed-Ur-Rehman06/Fake-News-Classifier.git
-   cd Fake-News-Classifier
+---
 
+## Dataset
+This project uses the [Fake and Real News Dataset](https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset) from Kaggle.
+
+
+## Installation & Usage
+### Clone the repository
+```bash
+git clone https://github.com/Waleed-Ur-Rehman06/Fake-News-Classifier.git
+cd Fake-News-Classifier
